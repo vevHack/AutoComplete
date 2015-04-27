@@ -1,0 +1,17 @@
+{
+  "name": "AutoComplete",
+  "version": "0.1",
+  "description": "使用localstorage存储信息，然后采用Jquery-UI的AutoComplete完成自动提示功能",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "jqueryui": "~1.11.4"
+  }
+}

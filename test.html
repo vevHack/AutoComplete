@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./bower_components/jqueryui/themes/vader/jquery-ui.css"/>
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/jqueryui/jquery-ui.min.js"></script>
+    <script src="./inputAutoComplete.js"></script>
+    <title>AutoComplete use local history</title>
+</head>
+<body>
+<div class="ui-widget">
+    <input type="text" id="jack" placeholder="this is test"/>
+    <button id="saveBtn" class="ui-button-text-icons">Save Input Data to Local</button>
+    <button id="clearBtn" class="ui-button-text-icons">Clear localData</button>
+</div>
+<script>
+    $('#saveBtn').click(function () {
+        inputAutoComplete.init($('#jack'));
+    });
+    $('#clearBtn').click(function () {
+        inputAutoComplete.clean($('#jack'));
+    });
+</script>
+</body>
+</html>

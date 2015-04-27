@@ -1,2 +1,4 @@
 # AutoComplete
-for autocomplete with localhistory
+for input text auto complete with localhistory,
+
+And the auto complete use jquery-ui
